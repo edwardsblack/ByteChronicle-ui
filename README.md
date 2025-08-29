@@ -98,6 +98,12 @@ frontend/
 - **TextToSpeech** - Audio playback controls
 - **ThemeToggle** - Dark/light mode switcher
 
+### 📸 Screenshots**
+![](/public/images/hero-themed.png) ![](/public/images/hero-light-mb.png) <br/>
+![](/public/images/hero-light.png) ![](/public/images/blogdetails-themed.png) <br/>
+![](/public/images/list-stories.png) ![](/public/images/TTS-panel.png) <br/>
+![](/public/images/dev-dashboard.png) ![](/public/images/blogdetails-light.png) <br/>
+
 ## 🔧 Configuration
 
 ### Environment Variables
