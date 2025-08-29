@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#22c55e" />
+    <meta name="description" content="ByteChronicle - Where code meets storytelling. A tech-focused blogging platform for developers and tech enthusiasts." />
+    <meta name="keywords" content="blog, programming, coding, tech, developers, tutorials, software, web development" />
+    <meta name="author" content="ByteChronicle" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ByteChronicle - Where Code Meets Storytelling" />
+    <meta property="og:description" content="A tech-focused blogging platform for developers and tech enthusiasts with markdown support" />
+    <meta property="og:site_name" content="ByteChronicle" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="ByteChronicle - Where Code Meets Storytelling" />
+    <meta property="twitter:description" content="A tech-focused blogging platform for developers and tech enthusiasts with markdown support" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    
+    <title>ByteChronicle - Where Code Meets Storytelling</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Performance monitoring -->
+    <script>
+      // Basic performance monitoring
+      window.addEventListener('load', function() {
+        if ('performance' in window) {
+          const perfData = performance.getEntriesByType('navigation')[0];
+          console.log('Page load time:', perfData.loadEventEnd - perfData.fetchStart, 'ms');
+        }
+      });
+    </script>
+  </body>
+</html>
