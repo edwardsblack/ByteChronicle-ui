@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React, { useState, useRef, useEffect } from 'react';
 import { Settings, X, Type, AlignLeft, Monitor } from 'lucide-react';
 import { useReadingPreferences } from '../contexts/ReadingPreferencesContext';

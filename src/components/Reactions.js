@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React, { useState, useEffect } from 'react';
 import { Heart, Bookmark, ThumbsUp, Smile, Zap } from 'lucide-react';
 

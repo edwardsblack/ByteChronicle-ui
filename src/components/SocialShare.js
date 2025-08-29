@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React, { useState } from 'react';
 import { Share2, Twitter, Linkedin, Facebook, Link, Copy, Check } from 'lucide-react';
 

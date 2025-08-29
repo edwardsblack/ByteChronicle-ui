@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Code2 } from 'lucide-react';

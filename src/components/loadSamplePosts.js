@@ -1,6 +1,10 @@
-// Sample posts loader for ByteChronicle
-// This script can be used to load sample posts from the public directory
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
 
+// This script can be used to load sample posts from the public directory
+// Sample posts loader for ByteChronicle
 async function loadSamplePosts() {
   try {
     const response = await fetch('/data/sample-posts.json');

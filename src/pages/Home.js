@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { PenTool, ChevronLeft, ChevronRight, TrendingUp, Sparkles } from 'lucide-react';

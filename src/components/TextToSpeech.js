@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Play, Pause, Square, Volume2, AlertCircle } from 'lucide-react';
 

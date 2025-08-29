@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import developerService from '../services/developerService';

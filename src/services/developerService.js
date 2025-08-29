@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import axios from 'axios';
 
 const API_BASE_URL = 'http://localhost:8080/api';

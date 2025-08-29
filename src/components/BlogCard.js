@@ -1,3 +1,8 @@
+/**
+ * @copyright 2025 PrasadKotkar
+ * @license Apache-2.0
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, User, Tag, ArrowUpRight } from 'lucide-react';
